@@ -1,0 +1,62 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FFFFFF" >
+
+    <TableLayout
+        android:id="@+id/layout_tl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="3dp"
+        android:stretchColumns="2" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:id="@+id/ll_sales"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:padding="3dp" >
+                  <TextView
+		        android:id="@+id/foodname"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"		        
+		        android:paddingTop="6dip"
+		        android:textStyle="bold" 
+		        android:text="@string/itemname"/>     
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_stock"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:clickable="true"
+                android:orientation="vertical"
+                android:padding="3dp" >
+                   <TextView
+		        android:id="@+id/quantity"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:paddingTop="6dip"
+		        android:textStyle="bold"
+		        android:text="@string/quantity" 
+		         />
+
+            </LinearLayout>
+        </TableRow>
+
+            </TableLayout>
+
+</ScrollView>
