@@ -9,5 +9,20 @@
     <string name="returns">Returns</string>
     <string name="visits">Visits</string>
     <string name="itemname">Item</string>
-    <string name="info">Info        </string>  
+    <string name="info">Info</string>
+    <string name="login">Login</string>
+    <string name="customers">Customers</string>  
+    <string name="new_customer">New Customer</string>
+    <string name="customer_name">Name</string>
+    <string name="name_hint">Name of Person</string>
+    <string name="company_name">Company Name</string>
+    <string name="mobile_no">Mobile No:</string>
+    <string name="mobile_hint">Cell Phone No</string>
+    <string name="gps_tag">GPS Tag</string>
+    <string name="street_location">Street/Location</string>
+    <string name="street_hint">Street Name</string>
+    <string name="area">Area</string>
+    <string name="city">City</string>
+    <string name="email">Email</string>
+    <string name="save">Save</string>
 </resources>
