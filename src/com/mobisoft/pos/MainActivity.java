@@ -1,24 +1,41 @@
 package com.mobisoft.pos;
 
-
-import android.os.Bundle;
 import android.app.Activity;
+import android.os.Bundle;
 import android.view.Menu;
+import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.mainscreen);
-    }
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.mainscreen);
+	}
 
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-    
+	public void onViewClicked(View view) {
+		switch (view.getId()) {
+		case R.id.ll_sales:
+			//show customers list
+			break;
+		case R.id.ll_stock:
+			//show product stock
+			
+			break;
+		default:
+			Toast.makeText(MainActivity.this, "Feature Under Construction",
+					Toast.LENGTH_LONG).show();
+			break;
+		}
+
+	}
+
 }
