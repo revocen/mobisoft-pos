@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="url">http://172.22.1.225:8084/mobisoftpos/</string>
+    <string name="url">http://10.0.0.2:8084/mobisoftpos/</string>
     <string name="app_name">Mobisoft POS</string>
     <string name="action_settings">Settings</string> 
     <string name="sales">Sale</string>
