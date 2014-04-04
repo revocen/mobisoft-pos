@@ -11,9 +11,11 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
+        public static final int green=0x7f040003;
         public static final int grey=0x7f040001;
         public static final int purple=0x7f040002;
         public static final int red=0x7f040000;
+        public static final int yellow=0x7f040004;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -41,71 +43,81 @@ public final class R {
         public static final int visits=0x7f02000c;
     }
     public static final class id {
-        public static final int action_settings=0x7f09001a;
-        public static final int btn_help=0x7f090006;
-        public static final int btn_info=0x7f090007;
-        public static final int btn_login=0x7f090004;
-        public static final int btn_new_customer=0x7f090000;
-        public static final int btn_quit=0x7f090005;
-        public static final int editText1=0x7f090001;
-        public static final int editText2=0x7f090002;
-        public static final int foodname=0x7f090018;
-        public static final int imageView1=0x7f090003;
-        public static final int imgv_btn1=0x7f09000b;
-        public static final int imgv_btn2=0x7f09000d;
-        public static final int imgv_btn3=0x7f090010;
-        public static final int imgv_btn4=0x7f090012;
-        public static final int imgv_btn5=0x7f090015;
-        public static final int imgv_btn6=0x7f090017;
-        public static final int layout_tl=0x7f090008;
-        public static final int ll_info=0x7f090016;
-        public static final int ll_receivables=0x7f09000f;
-        public static final int ll_returns=0x7f090011;
-        public static final int ll_sales=0x7f09000a;
-        public static final int ll_stock=0x7f09000c;
-        public static final int ll_visits=0x7f090014;
-        public static final int quantity=0x7f090019;
-        public static final int tableRow1=0x7f090009;
-        public static final int tableRow2=0x7f09000e;
-        public static final int tableRow3=0x7f090013;
+        public static final int action_settings=0x7f09001e;
+        public static final int btn_help=0x7f090008;
+        public static final int btn_info=0x7f090009;
+        public static final int btn_login=0x7f090006;
+        public static final int btn_new_customer=0x7f090002;
+        public static final int btn_quit=0x7f090007;
+        public static final int editText1=0x7f090003;
+        public static final int editText2=0x7f090004;
+        public static final int foodname=0x7f09001b;
+        public static final int imageView1=0x7f090005;
+        public static final int imgv_btn1=0x7f09000d;
+        public static final int imgv_btn2=0x7f09000f;
+        public static final int imgv_btn3=0x7f090012;
+        public static final int imgv_btn4=0x7f090014;
+        public static final int imgv_btn5=0x7f090017;
+        public static final int imgv_btn6=0x7f090019;
+        public static final int layout_tl=0x7f09000a;
+        public static final int ll_info=0x7f090018;
+        public static final int ll_receivables=0x7f090011;
+        public static final int ll_returns=0x7f090013;
+        public static final int ll_sales=0x7f09000c;
+        public static final int ll_stock=0x7f09000e;
+        public static final int ll_visits=0x7f090016;
+        public static final int quantity=0x7f09001c;
+        public static final int tableRow1=0x7f09000b;
+        public static final int tableRow2=0x7f090010;
+        public static final int tableRow3=0x7f090015;
+        public static final int textView1=0x7f09001a;
+        public static final int txtv_code=0x7f090000;
+        public static final int txtv_name=0x7f090001;
+        public static final int txtv_stock=0x7f09001d;
     }
     public static final class layout {
-        public static final int customers=0x7f030000;
-        public static final int login=0x7f030001;
-        public static final int mainscreen=0x7f030002;
-        public static final int splash=0x7f030003;
-        public static final int stock=0x7f030004;
-        public static final int stock1=0x7f030005;
+        public static final int customer_item=0x7f030000;
+        public static final int customers=0x7f030001;
+        public static final int login=0x7f030002;
+        public static final int mainscreen=0x7f030003;
+        public static final int splash=0x7f030004;
+        public static final int stock=0x7f030005;
+        public static final int stock1=0x7f030006;
+        public static final int stock_item=0x7f030007;
     }
     public static final class menu {
         public static final int main=0x7f080000;
     }
     public static final class string {
-        public static final int action_settings=0x7f060001;
-        public static final int app_name=0x7f060000;
-        public static final int area=0x7f060015;
-        public static final int city=0x7f060016;
-        public static final int company_name=0x7f06000f;
-        public static final int customer_name=0x7f06000d;
-        public static final int customers=0x7f06000b;
-        public static final int email=0x7f060017;
-        public static final int gps_tag=0x7f060012;
-        public static final int info=0x7f060009;
-        public static final int itemname=0x7f060008;
-        public static final int login=0x7f06000a;
-        public static final int mobile_hint=0x7f060011;
-        public static final int mobile_no=0x7f060010;
-        public static final int name_hint=0x7f06000e;
-        public static final int new_customer=0x7f06000c;
-        public static final int quantity=0x7f060004;
-        public static final int receivables=0x7f060005;
-        public static final int returns=0x7f060006;
-        public static final int sales=0x7f060002;
-        public static final int save=0x7f060018;
-        public static final int stock=0x7f060003;
-        public static final int street_hint=0x7f060014;
-        public static final int street_location=0x7f060013;
-        public static final int visits=0x7f060007;
+        public static final int action_settings=0x7f060002;
+        public static final int app_name=0x7f060001;
+        public static final int area=0x7f060016;
+        public static final int city=0x7f060017;
+        public static final int company_name=0x7f060010;
+        public static final int current_customers=0x7f06001c;
+        public static final int customer_name=0x7f06000e;
+        public static final int customers=0x7f06000c;
+        public static final int email=0x7f060018;
+        public static final int gps_tag=0x7f060013;
+        public static final int info=0x7f06000a;
+        public static final int itemname=0x7f060009;
+        public static final int login=0x7f06000b;
+        public static final int mobile_hint=0x7f060012;
+        public static final int mobile_no=0x7f060011;
+        public static final int name_hint=0x7f06000f;
+        public static final int new_customer=0x7f06000d;
+        public static final int product_stocks=0x7f06001b;
+        public static final int quantity=0x7f060005;
+        public static final int receivables=0x7f060006;
+        public static final int returns=0x7f060007;
+        public static final int sales=0x7f060003;
+        public static final int save=0x7f060019;
+        public static final int splash_title=0x7f06001a;
+        public static final int stock=0x7f060004;
+        public static final int street_hint=0x7f060015;
+        public static final int street_location=0x7f060014;
+        public static final int url=0x7f060000;
+        public static final int visits=0x7f060008;
     }
     public static final class style {
         /** 
