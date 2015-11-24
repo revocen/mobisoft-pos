@@ -1,0 +1,1 @@
+This project is an android application that will act as a point of sale for client-to-client sales persons. The app will also interface with a bluetooth enabled printer to print receipts.
